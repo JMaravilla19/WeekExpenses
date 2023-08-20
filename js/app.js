@@ -95,4 +95,4 @@ function agregarGasto(e){
     // you can write it once.
     const gasto = {nombre, cantidad};
     console.log(gasto);
-}
+}  
