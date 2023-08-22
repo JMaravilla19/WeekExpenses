@@ -129,7 +129,10 @@ class UI{
         if(restante <=0){
             this.imprimirAlerta('El presupuesto se agoto!!', 'error');
             formulario.querySelector('button[type="submit"]').disabled = true
+            return;
         }
+
+        formulario.querySelector('button[type="submit"]').disabled = false
     }
 }
 
